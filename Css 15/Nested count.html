@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <style>
+      body {
+        counter-reset: section;
+      }
+      h1 {
+        counter-reset: subsection;
+      }
+      h1::before {
+        counter-increment: section;
+        content: "section" counter(section) ":";
+      }
+      h2::before {
+        counter-increment: subsection;
+        content: counter(section) ":" counter(subsection) " ";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nesting counter property</h1>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h1>Nesting counter property</h1>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h1>Nesting counter property</h1>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h1>Nesting counter property</h1>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+    <h2>welcome</h2>
+  </body>
+</html>
