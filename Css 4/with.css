@@ -1,0 +1,12 @@
+red-section {
+  background-color: red;
+  color: white;
+}
+yellow-section {
+  background-color: yellow;
+  color: blue;
+}
+.bg {
+  background-color: orange;
+  color: black;
+}
