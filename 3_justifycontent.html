@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justify Content</title>
+    <style>
+      /*
+        .continer{
+            display:flex;
+            justify-content:flex-start;
+            justify-content:flex-end;
+            justify-content:space-between;
+            justify-content:space-around;
+            justify-content:center;
+        }
+        */
+      body {
+        background-color: white;
+        padding: 50px;
+        color: gray;
+      }
+      h3 {
+        text-align: center;
+        font-size: 50px;
+      }
+      .container {
+        border: 5px solid gray;
+        padding: 10px;
+        margin-top: 50px;
+      }
+      .box {
+        padding: 50px;
+        margin: 10px;
+        font-size: 50px;
+        font-weight: bold;
+        background-color: red;
+        color: whitesmoke;
+      }
+      .container {
+        width: 900px;
+        display: flex;
+        flex-direction: row; /*
+        justify-content: flex-start;
+        justify-content: flex-end;
+        justify-content: center;
+justify-content: space-around;
+        */
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Justify Content</h3>
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>

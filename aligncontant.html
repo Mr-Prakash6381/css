@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Align content</title>
+    <style>
+      /*
+        .continer{
+            display:flex;
+           align-content:flex-start;
+           align-content:flex-end;
+           align-content:center;
+           align-content:baseline;
+           align-content:stretch;
+        }
+        */
+      body {
+        background-color: white;
+        padding: 50px;
+        color: gray;
+      }
+      h3 {
+        text-align: center;
+        font-size: 50px;
+      }
+      .container {
+        border: 5px solid gray;
+        padding: 10px;
+        margin-top: 50px;
+      }
+      .box {
+        padding: 50px;
+        margin: 10px;
+        font-size: 50px;
+        font-weight: bold;
+        background-color: red;
+        color: whitesmoke;
+      }
+      .container {
+        width: 450px;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*
+        align-content:flex-start;
+           align-content:flex-end;
+           align-content:center;
+           align-content:baseline;
+           align-content:stretch;
+           align-content: space-around;
+           align-content: space-between;
+       
+        */
+        align-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Align Content</h3>
+    <div class="container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>
